@@ -30,7 +30,7 @@ export function iterationCount(a) {
 
 /*
   В функцию symbolsReplace() приходит строка текста
-  Используя цикл do while, замените в тексте каждый третий символ на символ нижнего подчеркивания
+  Используя цикл do while, замените в тексте каждый   третий символ на символ нижнего подчеркивания
   и верните итоговый результат.
 */
 export function symbolsReplace(message) {
@@ -41,6 +41,7 @@ export function symbolsReplace(message) {
         if (i >= chars.length) break;
 
         chars[i] = '_';
+
         i += 3;
     } while (true);
 
